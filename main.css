@@ -1,0 +1,729 @@
+.MyProjects{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.cardContainer2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    padding-left: 150px;
+}
+
+.cardContainer3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    padding-left: 150px;
+}
+
+.firstcard{
+    width: 400px;
+    height:auto;
+    position:relative;
+    background: yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+}
+
+.secondcard{
+    width: 400px;
+    height:auto;
+    position:relative;
+    background: yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+}
+
+.thirdcard{
+    width: 500px;
+    height:auto;
+    position:relative;
+    background: yellow;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px;
+    padding:20px;
+    transition: all .3s ease-in;
+}
+
+
+.firstcard2{
+    width: 300px;
+    height:auto;
+    position:relative;
+    background: orangered;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+.firstcard2:hover{
+    transform: scale(1.2);
+}
+
+.secondcard2:hover{
+    transform: scale(1.2);
+}
+.thirdcard2:hover{
+    transform: scale(1.2);
+}
+.firstcard3:hover{
+    transform: scale(1.2);
+}
+.secondcard3:hover{
+    transform: scale(1.2);
+}
+.thirdcard3:hover{
+    transform: scale(1.2);
+}
+
+.secondcard2{
+    width: 300px;
+    height:auto;
+    position:relative;
+    background: orangered;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+.thirdcard2{
+    width: 300px;
+    height:auto;
+    position:relative;
+    background: orangered;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+
+.firstcard3{
+    width: 275px;
+    height:auto;
+    position:relative;
+    background: #f54269;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+.secondcard3{
+    width: 275px;
+    height:auto;
+    position:relative;
+    background: #f54269;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+.thirdcard3{
+    width: 275px;
+    height:auto;
+    position:relative;
+    background: #f54269;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    padding:15px;
+    transition: all .3s ease-in;
+}
+
+.firstcard-> *{
+    padding: 10px;
+}
+
+.secondcard-> *{
+    padding: 10px;
+}
+
+.thirdcard-> *{
+    padding: 10px;
+}
+
+.firstcard2-> *{
+    padding: 10px;
+}
+
+.secondcard2-> *{
+    padding: 10px;
+}
+
+.thirdcard2-> *{
+    padding: 10px;
+}
+
+.firstcard3-> *{
+    padding: 10px;
+}
+
+.secondcard3-> *{
+    padding: 10px;
+}
+
+.thirdcard3-> *{
+    padding: 10px;
+}
+
+.firstcard .firstcardImage{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(champions_league.webp);
+}
+
+.secondcard .secondcardImage{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(europa.jpeg);
+}
+
+.thirdcard .thirdcardImage{
+    height: 150px;
+    width: 150px;
+    border: 5px double #022a3c;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(bundesliga.jpg);
+}
+
+.firstcard2 .firstcardImage2{
+    height: 125px;
+    width: 125px;
+    border: 5px double green;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(ball_control.webp);
+}
+
+.secondcard2 .secondcardImage2{
+    height: 125px;
+    width: 125px;
+    border: 5px double green;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(shooting.jpg);
+}
+
+.thirdcard2 .thirdcardImage2{
+    height: 125px;
+    width: 125px;
+    border: 5px double green;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(speed.jpg);
+}
+
+.firstcard3 .firstcardImage3{
+    height: 100px;
+    width: 125px;
+    border: 5px double #42f5e9;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(goldenBoot.webp);
+}
+
+.secondcard3 .secondcardImage3{
+    height: 100px;
+    width: 125px;
+    border: 5px double #42f5e9;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(audiCup.webp);
+}
+
+.thirdcard3 .thirdcardImage3{
+    height: 100px;
+    width: 125px;
+    border: 5px double #42f5e9;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(pfa.avif);
+}
+
+.firstcard:hover{
+    background: #e84393;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.secondcard:hover{
+    background: #e84393;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.thirdcard:hover{
+    background: #e84393;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.firstcard2:hover{
+    background: goldenrod;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.secondcard2:hover{
+    background: goldenrod;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.thirdcard2:hover{
+    background: goldenrod;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.firstcard3:hover{
+    background: #d442f5;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.secondcard3:hover{
+    background: #d442f5;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.thirdcard3:hover{
+    background: #d442f5;
+    color:#fff;
+    box-shadow: 0px 0px 11px 5px #000000;
+}
+
+.firstcard .firstcardText{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.secondcard .secondcardText{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.thirdcard .thirdcardText{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstcard2 .firstcardText2{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.secondcard2 .secondcardText2{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.thirdcard2 .thirdcardText2{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstcard3 .firstcardText3{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.secondcard3 .secondcardText3{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.thirdcard3 .thirdcardText3{
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstcard .firstcardTitle{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+
+.secondcard .secondcardTitle{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+
+.thirdcard .thirdcardTitle{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px #262654;
+}
+
+.firstcard2 .firstcardTitle2{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+.secondcard2 .secondcardTitle2{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+.thirdcard2 .thirdcardTitle2{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+.firstcard3 .firstcardTitle3{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+.secondcard3 .secondcardTitle3{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+.thirdcard3 .thirdcardTitle3{
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 2px rebeccapurple;
+}
+
+body{
+    background-color: rgb(251,255,196);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width:100px;
+    height:50px;
+    mix-blend-mode: multiply;
+}
+
+#logo{
+    background-color: rgb(251,255,196);
+    top:0;
+}
+
+.navi{
+    display: flex;
+    position: fixed;
+    top:20px;
+    /* margin-right: 100px; */
+    margin-left:100px;
+    padding-left: 400px;
+    width:100%;
+    background-color: rgb(251,255,196);
+    overflow: auto;
+    z-index: 1000;
+    /* height:auto; */
+}
+
+.myPhoto{
+    /* padding-right: 0px; */
+    margin-right: 0px;
+    position:absolute;
+    height:50px;
+    width:10vw;
+}
+
+#Attract{
+    color: red;
+}
+
+.fab{
+    cursor: pointer;
+}
+
+.fab:hover{
+    color:orange;
+}
+
+#myImage{
+    height:400px;
+    width:600px;
+    padding-left: 800px;
+}
+
+.intro{
+    top:300px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.firstLine{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secondLine{
+    font-weight: bold;
+    font-size:40px ;
+}
+
+.thirdLine{
+    font-size:35px ;
+    color: blue;
+}
+
+.fourthLine{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon_left{
+    position:absolute;
+    left:0;
+    width:10%; 
+    position: fixed;
+    top:20px;
+    mix-blend-mode: multiply; 
+    z-index: 1000;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+a:active{
+    color: blue;
+}
+
+.active{
+    text-decoration: none;
+    width:5%;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.projects{
+    text-decoration: none;
+    width:5%;
+    font-weight: bold;
+}
+.skills{
+    text-decoration: none;
+    width:5%;
+    font-weight: bold;
+}
+
+.achievements{
+    text-decoration: none;
+    width:10%;
+    font-weight: bold;
+}
+
+.contact{
+    text-decoration: none;
+    width:30%;
+    font-weight: bold;
+}
+
+button{
+    background-color: blue;
+    border:none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+#introbutton{
+    cursor: pointer;
+}
+
+#buttonCard{
+    background-color: red;
+    border:none;
+    border-radius: 10px;
+    color: yellow;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#buttonCard:focus{
+    background-color: darkgreen;
+}
+
+.contactMe{
+    background-image:url(allianzz.jpg);
+    height: 390px;
+    background-repeat: repeat-x;
+    opacity:1;
+}
+
+.firstName{
+    color: black;
+    font-weight: bold;
+}
+.lastName{
+    color: black;
+    font-weight: bold;
+}
+.Email{
+    color: black;
+    font-weight: bold;
+}
+.Message{
+    color: black;
+    font-weight: bold;
+}
+.Appointment{
+    color: black;
+    font-weight: bold;
+}
+.form-check-label{
+    color: black;
+    font-weight: bold;
+}
+
+#fname{
+    background-color: #cceb34;
+    border-radius: 5px;
+}
+
+#lname{
+    background-color: #cceb34;
+    border-radius: 5px;
+}
+
+#exampleInputEmail1{
+    background-color: #cceb34;
+    border-radius: 5px;
+}
+
+#exampleInputMessage1{
+    background-color: #cceb34;
+    border-radius: 5px;
+}
+
+#appointment{
+    background-color: #cceb34;
+    border-radius: 5px;
+}
+
+
+
+form{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+}
+
+#home{
+    scroll-behavior: smooth;
+}
+#projects{
+    scroll-behavior: smooth;
+}
+#skills{
+    scroll-behavior: smooth;
+}
+#contact{
+    scroll-behavior: smooth;
+}
